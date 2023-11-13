@@ -1,0 +1,156 @@
+body{
+    font-family:'Poppins', sans-serif;
+}
+body{
+    background: #E6E6F0;
+}
+body::before{
+    content: '';
+    width: 100%;
+    height: 436px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    background: #535971;
+}
+.body-form{
+    width: 750px;
+    margin: auto;
+}
+h1, legend{
+    font-family: 'Staatliches', sans-serif;
+}
+header{
+    margin-top: 140px;
+}
+header h1{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+header p{
+    width: 417px;
+    color: #C1BCCC;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+
+    margin-top: 0;
+    margin-bottom: 58px;
+}
+form{
+    border-radius: 20px 20px 0px 0px;
+    background: #FFF;
+    padding:  64px;
+}
+fieldset{
+    border-style: none;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+fieldset legend{
+    text-transform: uppercase;
+    color: #535971;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    width: 100%;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #E6E6F0;
+    margin-bottom: 32px;
+}
+
+label{
+    color: #4E4958;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+span{
+    color: #C1BCCC;
+    font-size: 12px;
+}
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.col-2{
+    display: flex;
+    gap:22px;
+}
+.col-2 input{
+    width: 300px;
+    height: 56px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    background: #FAFAFC;
+}
+input{
+    width: 100%;
+    height: 56px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    background: #FAFAFC;
+    
+}
+.date-columm{
+    display: flex;
+    gap: 10px; 
+} 
+.date-columm legend{
+    display: flex;
+    height: 34px;
+    color: #535971;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    border-style: none;
+    margin-bottom: 8px;
+}
+
+.date-columm input{
+    width: 300px;
+    height: 56px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    padding-left: 0;
+    background: #FAFAFC;
+}
+#date-time{
+    width: 140px;
+    height: 56px;
+}
+
+footer{
+    width: 750px;
+    height: 160px;
+    border-radius: 0px 0px 20px 20px;
+    background: #535971;
+    display: flex;
+    flex-direction: column;
+}
+
+footer input{
+    color: #FFF;
+    font-family: 'Staatliches', sans-serif;
+    display: flex;
+    width: 608px;
+    height: 55px;
+    padding: 15px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #FF5374;
+    margin: 52px 71px 51px 71px;
+
+}
